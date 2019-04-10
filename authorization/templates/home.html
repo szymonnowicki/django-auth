@@ -7,8 +7,23 @@
 </head>
 <body>
 <div class="container ">
-    <section>
-        
+    <section class="main-register">
+        {% csrf_token %}
+        <form action="/register" method="POST">
+            <label for="username">
+                <input type="text" id="username" placeholder="Username">
+            </label>
+            <label for="email">
+                <input type="text" id="email" placeholder="Email">
+            </label>
+            <label for="password">
+                <input type="password" id="password" placeholder="Password">
+            </label>
+            <label for="password-confrim">
+                <input type="password" id="password-confirm" placeholder="Password Cofirm">
+            </label>
+            <input type="submit" value="Zarejestruj się" />
+        </form>
     </section>
 </div>
 </body>
