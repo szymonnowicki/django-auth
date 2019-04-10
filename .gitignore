@@ -1,0 +1,9 @@
+db.sqlite3
+
+djangoauth/__pycache__
+
+authorization/__pycache__
+authorization/migrations
+
+api/__pycache__
+api/migrations
