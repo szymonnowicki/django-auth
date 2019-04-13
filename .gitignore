@@ -7,3 +7,7 @@ authorization/migrations
 
 api/__pycache__
 api/migrations
+
+.ipynb_checkpoints
+AddOK.ipynb
+CreateRandomUser.ipynb
